@@ -9,7 +9,7 @@ import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
-    <div>
+    <div class="pattern-zigzag-sm bg-tan white">
         <Header />
         <Nav />
         <About />
