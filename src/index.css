@@ -11,10 +11,10 @@
 }
 
 :root {
-    --color-bg: #ffe6cc;
+    --color-bg: #ffe6cc ;
     --color-bg-variant: #fff3e6;
-    --color-primary: #511b0c;
-    --color-primary-variant: black;
+    --color-primary: rgb(224, 203, 174);
+    --color-primary-variant: rgb(15, 19, 128);
     --color-white: white;
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -35,11 +35,12 @@ body {
     background: var(--color-bg);
     color: var(--color-primary);
     line-height: 1.7;
+    background-image: linear-gradient(rgb(69, 112, 196), rgb(202, 182, 156));
 }
 
 /* GENERAL */
 
-.contianer {
+.container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
